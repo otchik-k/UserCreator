@@ -34,13 +34,19 @@
             label3 = new Label();
             label4 = new Label();
             textBoxOU = new TextBox();
-            textBoxUserCount = new TextBox();
-            textBoxStartNumber = new TextBox();
             buttonCreate = new Button();
             label5 = new Label();
             textBoxPass = new TextBox();
             textBoxNetDiskAdress = new TextBox();
             label6 = new Label();
+            numericUpDownNewUserStartNumber = new NumericUpDown();
+            numericUpDownNewGroupCounter = new NumericUpDown();
+            textBoxAdminLogin = new TextBox();
+            textBoxAdminPass = new TextBox();
+            label7 = new Label();
+            label8 = new Label();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownNewUserStartNumber).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownNewGroupCounter).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -93,20 +99,6 @@
             textBoxOU.Size = new Size(498, 23);
             textBoxOU.TabIndex = 8;
             // 
-            // textBoxUserCount
-            // 
-            textBoxUserCount.Location = new Point(290, 70);
-            textBoxUserCount.Name = "textBoxUserCount";
-            textBoxUserCount.Size = new Size(498, 23);
-            textBoxUserCount.TabIndex = 9;
-            // 
-            // textBoxStartNumber
-            // 
-            textBoxStartNumber.Location = new Point(290, 99);
-            textBoxStartNumber.Name = "textBoxStartNumber";
-            textBoxStartNumber.Size = new Size(498, 23);
-            textBoxStartNumber.TabIndex = 10;
-            // 
             // buttonCreate
             // 
             buttonCreate.Font = new Font("Segoe UI", 72F, FontStyle.Regular, GraphicsUnit.Point, 204);
@@ -150,18 +142,68 @@
             label6.TabIndex = 15;
             label6.Text = "Расположение сетевого диска";
             // 
+            // numericUpDownNewUserStartNumber
+            // 
+            numericUpDownNewUserStartNumber.Location = new Point(290, 100);
+            numericUpDownNewUserStartNumber.Name = "numericUpDownNewUserStartNumber";
+            numericUpDownNewUserStartNumber.Size = new Size(498, 23);
+            numericUpDownNewUserStartNumber.TabIndex = 18;
+            // 
+            // numericUpDownNewGroupCounter
+            // 
+            numericUpDownNewGroupCounter.Location = new Point(290, 70);
+            numericUpDownNewGroupCounter.Name = "numericUpDownNewGroupCounter";
+            numericUpDownNewGroupCounter.Size = new Size(498, 23);
+            numericUpDownNewGroupCounter.TabIndex = 19;
+            // 
+            // textBoxAdminLogin
+            // 
+            textBoxAdminLogin.Location = new Point(290, 186);
+            textBoxAdminLogin.Name = "textBoxAdminLogin";
+            textBoxAdminLogin.Size = new Size(498, 23);
+            textBoxAdminLogin.TabIndex = 20;
+            // 
+            // textBoxAdminPass
+            // 
+            textBoxAdminPass.Location = new Point(290, 215);
+            textBoxAdminPass.Name = "textBoxAdminPass";
+            textBoxAdminPass.Size = new Size(498, 23);
+            textBoxAdminPass.TabIndex = 21;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(12, 189);
+            label7.Name = "label7";
+            label7.Size = new Size(135, 15);
+            label7.TabIndex = 22;
+            label7.Text = "Логин администратора";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(12, 218);
+            label8.Name = "label8";
+            label8.Size = new Size(143, 15);
+            label8.TabIndex = 23;
+            label8.Text = "Пароль администратора";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 500);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(textBoxAdminPass);
+            Controls.Add(textBoxAdminLogin);
+            Controls.Add(numericUpDownNewGroupCounter);
+            Controls.Add(numericUpDownNewUserStartNumber);
             Controls.Add(label6);
             Controls.Add(textBoxNetDiskAdress);
             Controls.Add(textBoxPass);
             Controls.Add(label5);
             Controls.Add(buttonCreate);
-            Controls.Add(textBoxStartNumber);
-            Controls.Add(textBoxUserCount);
             Controls.Add(textBoxOU);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -170,6 +212,8 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)numericUpDownNewUserStartNumber).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownNewGroupCounter).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -182,12 +226,16 @@
         private Label label3;
         private Label label4;
         private TextBox textBoxOU;
-        private TextBox textBoxUserCount;
-        private TextBox textBoxStartNumber;
         private Button buttonCreate;
         private Label label5;
         private TextBox textBoxPass;
         private TextBox textBoxNetDiskAdress;
         private Label label6;
+        private NumericUpDown numericUpDownNewUserStartNumber;
+        private NumericUpDown numericUpDownNewGroupCounter;
+        private TextBox textBoxAdminLogin;
+        private TextBox textBoxAdminPass;
+        private Label label7;
+        private Label label8;
     }
 }

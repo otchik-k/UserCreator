@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C2DBC3B5-4BC8-4D30-A44E-D9F37275F5DF}|UserCreator\\UserCreator.csproj|c:\\c#\\usercreator\\usercreator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C2DBC3B5-4BC8-4D30-A44E-D9F37275F5DF}|UserCreator\\UserCreator.csproj|solutionrelative:usercreator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DBC3B5-4BC8-4D30-A44E-D9F37275F5DF}|UserCreator\\UserCreator.csproj|c:\\c#\\usercreator\\usercreator\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DBC3B5-4BC8-4D30-A44E-D9F37275F5DF}|UserCreator\\UserCreator.csproj|solutionrelative:usercreator\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\C#\\UserCreator\\UserCreator\\Form1.cs",
-              "RelativeDocumentMoniker": "UserCreator\\Form1.cs",
-              "ToolTip": "C:\\C#\\UserCreator\\UserCreator\\Form1.cs",
-              "RelativeToolTip": "UserCreator\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\C#\\UserCreator\\UserCreator\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "UserCreator\\Form1.Designer.cs",
+              "ToolTip": "C:\\C#\\UserCreator\\UserCreator\\Form1.Designer.cs",
+              "RelativeToolTip": "UserCreator\\Form1.Designer.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAYwOMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T11:17:29.872Z",
+              "WhenOpened": "2025-08-21T04:42:47.64Z",
               "EditorCaption": ""
             },
             {
@@ -42,8 +46,21 @@
               "ToolTip": "C:\\C#\\UserCreator\\UserCreator\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "UserCreator\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T09:56:37.71Z",
+              "WhenOpened": "2025-08-21T04:43:24.452Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\C#\\UserCreator\\UserCreator\\Form1.cs",
+              "RelativeDocumentMoniker": "UserCreator\\Form1.cs",
+              "ToolTip": "C:\\C#\\UserCreator\\UserCreator\\Form1.cs",
+              "RelativeToolTip": "UserCreator\\Form1.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T11:17:29.872Z",
+              "EditorCaption": ""
             }
           ]
         }
