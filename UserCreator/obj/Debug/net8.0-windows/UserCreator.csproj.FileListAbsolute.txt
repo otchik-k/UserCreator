@@ -1,0 +1,17 @@
+C:\C#\UserCreator\UserCreator\bin\Debug\net8.0-windows\UserCreator.exe
+C:\C#\UserCreator\UserCreator\bin\Debug\net8.0-windows\UserCreator.deps.json
+C:\C#\UserCreator\UserCreator\bin\Debug\net8.0-windows\UserCreator.runtimeconfig.json
+C:\C#\UserCreator\UserCreator\bin\Debug\net8.0-windows\UserCreator.dll
+C:\C#\UserCreator\UserCreator\bin\Debug\net8.0-windows\UserCreator.pdb
+C:\C#\UserCreator\UserCreator\obj\Debug\net8.0-windows\UserCreator.Form1.resources
+C:\C#\UserCreator\UserCreator\obj\Debug\net8.0-windows\UserCreator.csproj.GenerateResource.cache
+C:\C#\UserCreator\UserCreator\obj\Debug\net8.0-windows\UserCreator.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\UserCreator\UserCreator\obj\Debug\net8.0-windows\UserCreator.AssemblyInfoInputs.cache
+C:\C#\UserCreator\UserCreator\obj\Debug\net8.0-windows\UserCreator.AssemblyInfo.cs
+C:\C#\UserCreator\UserCreator\obj\Debug\net8.0-windows\UserCreator.csproj.CoreCompileInputs.cache
+C:\C#\UserCreator\UserCreator\obj\Debug\net8.0-windows\UserCreator.sourcelink.json
+C:\C#\UserCreator\UserCreator\obj\Debug\net8.0-windows\UserCreator.dll
+C:\C#\UserCreator\UserCreator\obj\Debug\net8.0-windows\refint\UserCreator.dll
+C:\C#\UserCreator\UserCreator\obj\Debug\net8.0-windows\UserCreator.pdb
+C:\C#\UserCreator\UserCreator\obj\Debug\net8.0-windows\UserCreator.genruntimeconfig.cache
+C:\C#\UserCreator\UserCreator\obj\Debug\net8.0-windows\ref\UserCreator.dll

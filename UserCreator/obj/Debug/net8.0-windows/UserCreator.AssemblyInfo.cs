@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserCreator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+832f3a731e5df693e1efd5ecd1dbd775f6bc018d")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserCreator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserCreator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

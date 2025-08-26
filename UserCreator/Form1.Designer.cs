@@ -45,6 +45,8 @@
             textBoxAdminPass = new TextBox();
             label7 = new Label();
             label8 = new Label();
+            textBoxHomeDrive = new TextBox();
+            label9 = new Label();
             ((System.ComponentModel.ISupportInitialize)numericUpDownNewUserStartNumber).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDownNewGroupCounter).BeginInit();
             SuspendLayout();
@@ -101,7 +103,7 @@
             // 
             // buttonCreate
             // 
-            buttonCreate.Font = new Font("Segoe UI", 72F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            buttonCreate.Font = new Font("Segoe UI", 48F, FontStyle.Regular, GraphicsUnit.Point, 204);
             buttonCreate.Location = new Point(12, 318);
             buttonCreate.Name = "buttonCreate";
             buttonCreate.Size = new Size(776, 170);
@@ -158,22 +160,23 @@
             // 
             // textBoxAdminLogin
             // 
-            textBoxAdminLogin.Location = new Point(290, 186);
+            textBoxAdminLogin.Location = new Point(290, 215);
             textBoxAdminLogin.Name = "textBoxAdminLogin";
             textBoxAdminLogin.Size = new Size(498, 23);
             textBoxAdminLogin.TabIndex = 20;
             // 
             // textBoxAdminPass
             // 
-            textBoxAdminPass.Location = new Point(290, 215);
+            textBoxAdminPass.Location = new Point(290, 244);
             textBoxAdminPass.Name = "textBoxAdminPass";
+            textBoxAdminPass.PasswordChar = '*';
             textBoxAdminPass.Size = new Size(498, 23);
             textBoxAdminPass.TabIndex = 21;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(12, 189);
+            label7.Location = new Point(12, 218);
             label7.Name = "label7";
             label7.Size = new Size(135, 15);
             label7.TabIndex = 22;
@@ -182,17 +185,35 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(12, 218);
+            label8.Location = new Point(12, 247);
             label8.Name = "label8";
             label8.Size = new Size(143, 15);
             label8.TabIndex = 23;
             label8.Text = "Пароль администратора";
+            // 
+            // textBoxHomeDrive
+            // 
+            textBoxHomeDrive.Location = new Point(290, 186);
+            textBoxHomeDrive.Name = "textBoxHomeDrive";
+            textBoxHomeDrive.Size = new Size(498, 23);
+            textBoxHomeDrive.TabIndex = 24;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(12, 189);
+            label9.Name = "label9";
+            label9.Size = new Size(123, 15);
+            label9.TabIndex = 25;
+            label9.Text = "Буква сетевого диска";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 500);
+            Controls.Add(label9);
+            Controls.Add(textBoxHomeDrive);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(textBoxAdminPass);
@@ -237,5 +258,7 @@
         private TextBox textBoxAdminPass;
         private Label label7;
         private Label label8;
+        private TextBox textBoxHomeDrive;
+        private Label label9;
     }
 }
