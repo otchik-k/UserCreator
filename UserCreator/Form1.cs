@@ -1,4 +1,7 @@
 using System.DirectoryServices;
+using System.IO;
+using System.Security.AccessControl;
+using System.Security.Principal;
 
 namespace UserCreator
 {
@@ -31,6 +34,8 @@ namespace UserCreator
             newEntry.Properties["userPrincipalName"].Value = newUserData[1]; //Имя входа пользователя
             newEntry.Properties["sAMAccountName"].Value = newUserData[1]; // Логин пред Windows 2000
             newEntry.Properties["displayName"].Value = newUserData[0]; //Выводимое имя
+            FolderCreator(newUserData[3]);
+            SetFolderPermissions(newUserData[3], newUserData[0], FileSystemRights.Read | FileSystemRights.Write);
             newEntry.Properties["HomeDirectory"].Value = newUserData[3]; // Путь к сетевому диску
             newEntry.Properties["HomeDrive"].Value = newUserData[4]; // Буква сетевого иска
             newEntry.CommitChanges();
@@ -41,9 +46,45 @@ namespace UserCreator
             newEntry.CommitChanges();
         }
 
+        public static void FolderCreator(string folderPath)
+        {
+            try
+            {
+                if (!Directory.Exists(folderPath))
+                {
+                    Directory.CreateDirectory(folderPath);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            
+        }
+
+        public static void SetFolderPermissions(string folderPath, string userName, FileSystemRights rights)
+        {
+            DirectoryInfo directoryInfo = new DirectoryInfo(folderPath);
+            DirectorySecurity directorySecurity = directoryInfo.GetAccessControl();
+
+            // Создаем правило доступа
+            FileSystemAccessRule accessRule = new FileSystemAccessRule(
+                userName,    // Имя пользователя AD
+                rights,      // Права доступа
+                InheritanceFlags.ContainerInherit | InheritanceFlags.ObjectInherit,
+                PropagationFlags.None,
+                AccessControlType.Allow);
+
+            // Добавляем правило доступа
+            directorySecurity.AddAccessRule(accessRule);
+
+            // Применяем изменения
+            directoryInfo.SetAccessControl(directorySecurity);
+        }
+
         private void buttonCreate_Click(object sender, EventArgs e)
         {
-            for (int i = (int)numericUpDownNewUserStartNumber.Value; i < (int)numericUpDownNewGroupCounter.Value; i++)
+            for (int i = (int)numericUpDownNewUserStartNumber.Value; i <= (int)numericUpDownNewGroupCounter.Value; i++)
             {
                 newUserData[0] = textBoxGroupNumber.Text + "-" + i.ToString();
                 newUserData[1] = textBoxGroupNumber.Text + "-" + i.ToString();

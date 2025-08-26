@@ -34,20 +34,19 @@
               "RelativeToolTip": "UserCreator\\Form1.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAYwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T04:42:47.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T04:42:47.64Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\C#\\UserCreator\\UserCreator\\Form1.cs",
               "RelativeDocumentMoniker": "UserCreator\\Form1.cs",
-              "ToolTip": "C:\\C#\\UserCreator\\UserCreator\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "UserCreator\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\C#\\UserCreator\\UserCreator\\Form1.cs [Design]",
+              "RelativeToolTip": "UserCreator\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T04:43:24.452Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "UserCreator\\Form1.cs",
               "ToolTip": "C:\\C#\\UserCreator\\UserCreator\\Form1.cs",
               "RelativeToolTip": "UserCreator\\Form1.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwE4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-15T11:17:29.872Z",
               "EditorCaption": ""
