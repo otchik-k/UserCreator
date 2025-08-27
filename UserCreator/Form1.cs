@@ -35,7 +35,6 @@ namespace UserCreator
             newEntry.Properties["sAMAccountName"].Value = newUserData[1]; // Логин пред Windows 2000
             newEntry.Properties["displayName"].Value = newUserData[0]; //Выводимое имя
             FolderCreator(newUserData[3]);
-            SetFolderPermissions(newUserData[3], newUserData[0], FileSystemRights.Read | FileSystemRights.Write);
             newEntry.Properties["HomeDirectory"].Value = newUserData[3]; // Путь к сетевому диску
             newEntry.Properties["HomeDrive"].Value = newUserData[4]; // Буква сетевого иска
             newEntry.CommitChanges();
@@ -43,6 +42,7 @@ namespace UserCreator
             newEntry.Properties["LockOutTime"].Value = 0; //Разблокировка аккаунта
             newEntry.Properties["userAccountControl"].Value = "512"; //Включение, выключение учетной записи
             newEntry.Properties["pwdLastSet"].Value = 0; //требование о смене пароля при первом входе
+            SetFolderPermissions(newUserData[3], newUserData[0], FileSystemRights.Read | FileSystemRights.Write);
             newEntry.CommitChanges();
         }
 
